@@ -7,4 +7,4 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 
 ### Questions
 
-For further question about the code or dataset, please contact 'zxzhao@cse.cuhk.edu.hk'
+For further question about the code or paper, please contact 'zxzhao@cse.cuhk.edu.hk'
