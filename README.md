@@ -8,7 +8,7 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
   <img src="figure/framework.png"  width="720"/>
 </p>
 
-* The Code contains two parts: motion learning (motion prediction and motion compensation) and semi-supervised segmentation.
+* The Code contains two parts: motion learning (flow prediction and flow compensation) and semi-supervised segmentation.
 
 ### Data Preparation
 * We use the dataset from [MICCAI 2017 Endoscopic vision challenge](https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/).
@@ -49,7 +49,11 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 - tqdm
 ```
 
-2. Dataset ([EndoVis 2017 Challenge](https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/Data/)):
+2. flow prediction & flow compensation:
+To train the flow prediction model, 
+```
+$ python train_mp.py
+```
 
 
 ### Citation
