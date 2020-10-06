@@ -24,7 +24,7 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 - tqdm
 ```
 
-2. Dataset (EndoVis 2017 Challenge)(https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/Data/)
+2. Dataset ([EndoVis 2017 Challenge](https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/Data/)):
 
 ### Citation
 If this repository is useful for your research, please cite:
