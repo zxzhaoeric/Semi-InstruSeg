@@ -5,8 +5,35 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 * The Pytorch implementation for our MICCAI 2020 paper '[Learning Motion Flows for Semi-supervised Instrument Segmentation from Surgical Robotic Videos](https://arxiv.org/pdf/2007.02501.pdf)'. 
 
 <p align="center">
-  <img src="figure/framework.png"  width="700"/>
+  <img src="figure/framework.png"  width="720"/>
 </p>
+
+* The Code contains two parts: motion learning (motion prediction and motion compensation) and semi-supervised segmentation.
+
+### Setup
+```
+- Python 3.6
+- pytorch 0.4.1+
+- pytorch-ignite 0.2.0+
+- tensorboardX
+- albumentations
+- opencv-python
+- cupy (please check your CUDA version before install)
+- tqdm
+```
+
+### Citation
+If this repository is useful for your research, please cite:
+```
+@inproceedings{zhao2020learning,
+  title={Learning Motion Flows for Semi-supervised Instrument Segmentation from Robotic Surgical Video},
+  author={Zhao, Zixu and Jin, Yueming and Gao, Xiaojie and Dou, Qi and Heng, Pheng-Ann},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={679--689},
+  year={2020},
+  organization={Springer}
+}
+```
 
 ### Questions
 
