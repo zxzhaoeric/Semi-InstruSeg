@@ -51,7 +51,7 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 2. Flow prediction & Flow compensation (./motion_learning/):
 * To train the flow prediction model, run ``$ python train_mp.py``.
 * To train the flow compensation model, run ``$ python train_mc.py``.
-* Arguments for model training in ``$ bash train.sh`` are in default settings.
+* Arguments for model training in ``train.sh`` are in default settings.
 * To propagate frame-label pairs, run ``$ bash propagate.sh``.
 
 3. Semi-supervised segmentation (./semi-seg/):
