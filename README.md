@@ -10,6 +10,12 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 
 * The Code contains two parts: motion learning (motion prediction and motion compensation) and semi-supervised segmentation.
 
+### Data Preparation
+* We use the dataset from [MICCAI 2017 Endoscopic vision challenge](https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/).
+
+* Please follow the data preprocessing steps in this [repository](https://github.com/keyuncheng/MF-TAPNet).
+
+
 ### Setup & Usage for the Code
 
 1. Check dependencies:
@@ -25,6 +31,7 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 ```
 
 2. Dataset ([EndoVis 2017 Challenge](https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/Data/)):
+
 
 ### Citation
 If this repository is useful for your research, please cite:
