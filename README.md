@@ -3,7 +3,10 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 
 ### Introduction
 * The Pytorch implementation for our MICCAI 2020 paper '[Learning Motion Flows for Semi-supervised Instrument Segmentation from Surgical Robotic Videos](https://arxiv.org/pdf/2007.02501.pdf)'. 
-* To appear soon.
+
+<p align="center">
+  <img src="figure/framework.png"  width="700"/>
+</p>
 
 ### Questions
 
