@@ -15,6 +15,25 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 
 * Please follow the data preprocessing steps in this [repository](https://github.com/keyuncheng/MF-TAPNet).
 
+* The structure of data folder is arranged as follows:
+```
+(root folder)
+├── data
+|  ├── cropped_train
+|  |  ├── instrument_dataset_1
+|  |  |  ├── images
+|  |  |  ├── binary_masks
+|  |  |  ├── parts_masks
+|  |  |  ├── instrument_masks
+|  |  ├── instrument_dataset_2
+|  |  |  ├── images
+|  |  |  ├── binary_masks
+|  |  |  ├── parts_masks
+|  |  |  ├── instrument_masks
+|  |  ├── ......
+
+```
+
 
 ### Setup & Usage for the Code
 
