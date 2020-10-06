@@ -48,13 +48,17 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 - cupy (please check your CUDA version before install)
 - tqdm
 ```
-2. Flow prediction & Flow compensation:
-* To train the flow prediction model, run ``train_mp.py``.
-* To train the flow compensation model, run ``train_mc.py``.
-* Arguments for model training in ``train.sh`` are in default settings.
-* To propagate frame-label pairs, run ``propagate.sh``.
+2. Flow prediction & Flow compensation (./motion_learning/):
+* To train the flow prediction model, run ``$ python train_mp.py``.
+* To train the flow compensation model, run ``$ python train_mc.py``.
+* Arguments for model training in ``$ bash train.sh`` are in default settings.
+* To propagate frame-label pairs, run ``$ bash propagate.sh``.
 
-
+3. Semi-supervised segmentation (./semi-seg/):
+```
+$ bash train.sh
+```
+Note: You may try other models from /Models/plane_model.py
 
 ### Citation
 If this repository is useful for your research, please cite:
