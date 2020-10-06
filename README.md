@@ -10,7 +10,9 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 
 * The Code contains two parts: motion learning (motion prediction and motion compensation) and semi-supervised segmentation.
 
-### Setup
+### Setup & Usage for the Code
+
+1. Check dependencies:
 ```
 - Python 3.6
 - pytorch 0.4.1+
@@ -21,6 +23,8 @@ by [Zixu Zhao](https://scholar.google.com.hk/citations?user=GSQY0CEAAAAJ&hl=zh-C
 - cupy (please check your CUDA version before install)
 - tqdm
 ```
+
+2. Dataset (EndoVis 2017 Challenge)(https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/Data/)
 
 ### Citation
 If this repository is useful for your research, please cite:
